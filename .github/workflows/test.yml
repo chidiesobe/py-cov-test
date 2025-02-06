@@ -20,4 +20,5 @@ jobs:
         files: coverage.xml
         fail_ci_if_error: true
         verbose: true
-        flags: unittests 
+        flags: unittests
+        notify_github: true  # Enable GitHub PR comments
