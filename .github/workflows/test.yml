@@ -5,7 +5,7 @@ on: [push, pull_request]
 jobs:
   build:
     runs-on: ubuntu-latest
-    name: Test python API
+    name: Test Python Calculator
     steps:
     - uses: actions/checkout@v4
     - name: Install requirements
@@ -21,4 +21,3 @@ jobs:
         fail_ci_if_error: true
         verbose: true
         flags: unittests
-        notify_github: true  # Enable GitHub PR comments
