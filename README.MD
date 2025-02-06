@@ -1,0 +1,1 @@
+[![codecov](https://codecov.io/gh/chidiesobe/python-test/graph/badge.svg?token=I4NK818CQI)](https://codecov.io/gh/chidiesobe/python-test)
